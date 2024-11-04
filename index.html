@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOCKEY TEAM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- font awesome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- extra font -->
+<link href="https://fonts.cdnfonts.com/css/haettenschweiler" rel="stylesheet">
+                
+
+<!-- tailwind config -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            tomatos: '#FF4240'
+          }
+        }
+      }
+    }
+  </script>
+
+
+
+
+<style>
+    *{
+        font-family: "Manrope", serif;
+    }
+
+    .tomato{
+        color: #FF4240;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .marka{
+        font-family: 'Haettenschweiler', sans-serif;
+                                                
+    }
+    .goru{
+        display: none;
+    }
+</style>
+
+
+
+
+
+
+</head>
+    
+    <div class=" w-8/12/12 lg:w-10/12 mx-auto">
+    <header class="mt-8">
+        <nav class="flex justify-between text-center ">
+            <div class="font-extrabold text-4xl ">Hockey<span class="tomato marka">'</span>s</div>
+
+            <div class="font-bold flex gap-12 my-auto">
+                <a class="tomato" href="">Home</a>
+                <a href="">About</a>
+                <a href="">Pages</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </div>
+
+            <div class="flex text-center gap-6">
+                <i class="fa-solid fa-magnifying-glass my-auto"></i>
+                <button class="btn btn-warning bg-tomatos text-white w-36 h-14">Get Ticket</button>
+
+            </div>
+
+        </nav>
+
+    </header>
+    </div>
+
+    <main>
+        <!-- heroes slider section / carosoul -->
+        <section>
+            <div>
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                        class="w-full" />
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                        class="w-full" />
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                        class="w-full" />
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                        class="w-full" />
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
