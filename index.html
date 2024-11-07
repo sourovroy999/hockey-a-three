@@ -33,6 +33,10 @@
                         clifford: '#da373d',
                         tomatos: '#FF4240',
                         blacks: "#131318",
+                        tomatoes: '#FF4240'
+                        //                     progress: background: 
+                        // radial- gradient(closest - side, white 79 %, transparent 80 % 100 %),
+                        //                 conic- gradient(hotpink 75 %, pink 0); 
                     }
                 }
             }
@@ -59,6 +63,30 @@
 
         .goru {
             display: none;
+        }
+
+        .progress {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(red 75%, rgba(184, 181, 181, 0.317) 0);
+        }
+
+        .progress-two {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(green 90%, rgba(184, 181, 181, 0.317) 0);
+        }
+
+        .progress-three {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(rgb(54, 96, 224) 80%, rgba(184, 181, 181, 0.317) 0);
+        }
+
+        .progress-four {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(rgb(238, 200, 32) 90%, rgba(184, 181, 181, 0.317) 0);
         }
     </style>
 
@@ -95,44 +123,43 @@
 
 <main>
     <!-- heroes slider section / carosoul -->
-    <section class=" w-8/12/12 lg:w-10/12 mx-auto mt-8 h-3/4 mb-28">
+    <section class=" w-8/12 lg:w-10/12 mx-auto mt-8 h-3/4 mb-28">
         <div>
             <div class="carousel w-full h-1/2">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="./Images/1.png"
-                        class="w-full h-full" />
+                    <img src="./Images/1.png" class="w-full h-full" />
 
 
-                        <!-- card -->
-                        <div class="absolute card bg-black text-white w-96 shadow-xl right-10 bottom-9  transform">
-                            <div class="card-body">
-                              <h2 class="card-title">Meet all the heroes from the field</h2>
-                              <p>If a dog chews shoes whose shoes does he choose?</p>
-                              
-                            </div>
-                          </div>
+                    <!-- card -->
+                    <div class="absolute card bg-black text-white w-96 shadow-xl right-10 bottom-9  transform">
+                        <div class="card-body">
+                            <h2 class="card-title">Meet all the heroes from the field</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+
+                        </div>
+                    </div>
 
 
-                          <!-- arrow -->
+                    <!-- arrow -->
                     <div class="absolute left-5 top-3/4 transform ">
-                        <a href="#slide4" class="btn btn-circle bg-black text-white bg-black text-white">❮</a>
-                        <a href="#slide2" class="btn btn-circle bg-black text-white bg-black text-white">❯</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white ">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white ">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
                         class="w-full" />
                     <div class="absolute left-5 top-3/4 transform">
-                        <a href="#slide1" class="btn btn-circle bg-black text-white bg-black text-white">❮</a>
-                        <a href="#slide3" class="btn btn-circle bg-black text-white bg-black text-white">❯</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white ">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white ">❯</a>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
                         class="w-full" />
                     <div class="absolute left-5 top-3/4 transform">
-                        <a href="#slide2" class="btn btn-circle bg-black text-white bg-black text-white">❮</a>
-                        <a href="#slide4" class="btn btn-circle bg-black text-white bg-black text-white">❯</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white ">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white ">❯</a>
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
@@ -147,7 +174,162 @@
         </div>
     </section>
 
-    
+    <section class="w-8/12 lg:w-10/12 mx-auto">
+        <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
+            <h3 class="text-3xl font-extrabold r">Professional Hockeys Club</h3>
+            <p>"Our mission is to foster a love for the game of hockey while building a community of players, <br>
+                coaches, and fans who strive for excellence both on and off the ice."
+            </p>
+
+        </div>
+    </section>
+
+    <!-- rating secction -->
+    <section class=" w-8/12 lg:w-10/12 mx-auto mt-8 mb-14 ">
+        <div class="flex justify-center w-auto">
+            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+
+                <div class="mx-auto">
+                    <div class="  rounded-[50%] h-4 w-1 p-8 progress rotate-180">
+                        <div class="-mx-3 -my-3">
+                            <p class="rotate-180">87%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="font-bold">Player Facility</h2>
+                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+            </div>
+
+            <!-- two -->
+            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+
+                <div class="mx-auto">
+                    <div class="  rounded-[50%] h-4 w-1 p-8 progress-two  rotate-180">
+                        <div class="-mx-3 -my-3">
+                            <p class="rotate-180">95%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="font-bold">Player Facility</h2>
+                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+            </div>
+
+            <!-- three -->
+            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+
+                <div class="mx-auto">
+                    <div class="  rounded-[50%] h-4 w-1 p-8 progress-three  rotate-180">
+                        <div class="-mx-3 -my-3">
+                            <p class="rotate-180">80%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="font-bold">Player Facility</h2>
+                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+            </div>
+
+            <!-- four -->
+            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+
+                <div class="mx-auto">
+                    <div class="  rounded-[50%] h-4 w-1 p-8 progress-four rotate-180 ">
+                        <div class="-mx-3 -my-3">
+                            <p class="rotate-180">90%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="font-bold">Player Facility</h2>
+                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- program section -->
+
+    <section class="w-8/12 lg:w-10/12 mx-auto">
+        <div class="mx-auto text-center border-dashed border-t-2 py-10 my-4">
+            <h3 class="text-3xl font-extrabold r">Program Sections</h3>
+            <p>For major club news or partnerships, such as new sponsorship deals, <br>facility upgrades, or community
+                outreach programs.
+            </p>
+
+        </div>
+
+
+
+
+    </section>
+
+    <section>
+        <div>
+
+            <div class=" lg:w-10/12 flex justify-between  gap-8 mx-auto">
+                <!-- card 1 -->
+                <div class="card bg-base-100 image-full flex-1 shadow-xl mx-auto">
+                    <figure>
+                        <img src="./Images/2.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body pt-16">
+                        <h2 class="card-title">Junior Program</h2>
+                        <p class="text-left">At junior program, we are committed to fostering the growth and development
+                            of young athletes through the sport of hockey. Our junior hockey program is designed to help
+                            players of all skill levels – </p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-secondary bg-tomatoes
+                          ">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- card 2 -->
+                <div class="card bg-base-100 image-full flex-1 shadow-xl">
+                    <figure>
+                        <img class="" src="./Images/3.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body pt-16">
+                        <h2 class="card-title">Teenager Program</h2>
+                        <p class="text-left">With experienced coaches, a positive team-oriented environment, and
+                            state-of-the-art facilities, we provide the perfect setting for young players to develop
+                            their skills.</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-secondary bg-tomatoes">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- card 3 -->
+            <div class=" card lg:w-10/12 mx-auto bg-base-100 image-full w- shadow-xl mt-8">
+                <figure>
+                    <img src="./Images/4.png" alt="Shoes" />
+                </figure>
+                <div class="card-body pt-40">
+                    <h2 class="card-title">Professional Program</h2>
+                    <p>A professional hockey program refers to an organized system aimed at developing players into elite athletes capable of competing at the highest levels of the sport. These programs are designed to provide structured training, competition, and support</p>
+                    <div class="card-actions justify-start">
+                        <button class="btn btn-secondary bg-tomatoes">Register Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="w-8/12 lg:w-10/12 pt-14 mx-auto">
+        <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
+            <h3 class="text-3xl font-extrabold r">Our New Products</h3>
+            <p>The IceRazor Pro Hockey Stick is designed for elite performance and precision, built to withstand the demands of professional hockey players while offering exceptional power and control. Whether you’re shooting for the game-winning goal or making a critical pass, the IceRazor Pro gives you the edge you need to dominate the ice.
+            </p>
+
+        </div>
+    </section>
 
 </main>
 <footer>
