@@ -97,22 +97,25 @@
 
 </head>
 
-<div class=" w-8/12/12 lg:w-10/12 mx-auto">
-    <header class="mt-8">
+
+<div class=" lg:w-10/12 mx-auto">
+    <header class=" mt-8">
         <nav class="flex justify-between text-center ">
+         <div class="flex lg:flex-row">
             <div class="font-extrabold text-4xl ">Hockey<span class="tomato marka">'</span>s</div>
 
-            <div class="font-bold flex gap-12 my-auto">
+             <div class="flex-none lg:flex font-bold md:space-x-4  my-auto">
                 <a class="tomato" href="">Home</a>
                 <a href="">About</a>
                 <a href="">Pages</a>
                 <a href="">Blog</a>
                 <a href="">Contact</a>
             </div>
+         </div>
 
             <div class="flex text-center gap-6">
                 <i class="fa-solid fa-magnifying-glass my-auto"></i>
-                <button class="btn btn-warning bg-tomatos text-white w-36 h-14">Get Ticket</button>
+                <button class="btn btn-warning bg-tomatos text-white w-20 lg:w-36 h-14">Get Ticket</button>
 
             </div>
 
@@ -123,15 +126,15 @@
 
 <main>
     <!-- heroes slider section / carosoul -->
-    <section class=" w-8/12 lg:w-10/12 mx-auto mt-8 h-3/4 mb-28">
+    <section class="w-8/12 lg:w-10/12 mx-auto mt-8 h-full lg:h-3/4 mb-28">
         <div>
-            <div class="carousel w-full h-1/2">
+            <div class="carousel w-full lg:w-full h-1/2">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full h-full" />
 
 
                     <!-- card -->
-                    <div class="absolute card bg-black text-white w-96 shadow-xl right-10 bottom-9  transform">
+                    <div class="absolute card bg-black text-white w-3/4 shadow-xl  lg:right-10 lg:bottom-9 lg:transform">
                         <div class="card-body">
                             <h2 class="card-title">Meet all the heroes from the field</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -174,7 +177,7 @@
         </div>
     </section>
 
-    <section class="w-8/12 lg:w-10/12 mx-auto">
+    <section class="ml-5 w-full lg:w-10/12 lg:mx-auto">
         <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
             <h3 class="text-3xl font-extrabold r">Professional Hockeys Club</h3>
             <p>"Our mission is to foster a love for the game of hockey while building a community of players, <br>
@@ -185,9 +188,11 @@
     </section>
 
     <!-- rating secction -->
-    <section class=" w-8/12 lg:w-10/12 mx-auto mt-8 mb-14 ">
-        <div class="flex justify-center w-auto">
-            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+    <section class="ml-5 w-full lg:w-10/12 lg:mx-auto mt-8 mb-14 ">
+        <div class="space-y-6 lg:flex justify-center w-auto">
+
+            <!-- card1 -->
+            <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
 
                 <div class="mx-auto">
                     <div class="  rounded-[50%] h-4 w-1 p-8 progress rotate-180">
@@ -202,7 +207,7 @@
             </div>
 
             <!-- two -->
-            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+            <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
 
                 <div class="mx-auto">
                     <div class="  rounded-[50%] h-4 w-1 p-8 progress-two  rotate-180">
@@ -217,7 +222,7 @@
             </div>
 
             <!-- three -->
-            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+            <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
 
                 <div class="mx-auto">
                     <div class="  rounded-[50%] h-4 w-1 p-8 progress-three  rotate-180">
@@ -232,7 +237,7 @@
             </div>
 
             <!-- four -->
-            <div class="flex flex-col gap-2 w-56 justify-center text-center ">
+            <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
 
                 <div class="mx-auto">
                     <div class="  rounded-[50%] h-4 w-1 p-8 progress-four rotate-180 ">
@@ -250,7 +255,7 @@
 
     <!-- program section -->
 
-    <section class="w-8/12 lg:w-10/12 mx-auto">
+    <section class="ml-10 lg:w-10/12 mx-auto">
         <div class="mx-auto text-center border-dashed border-t-2 py-10 my-4">
             <h3 class="text-3xl font-extrabold r">Program Sections</h3>
             <p>For major club news or partnerships, such as new sponsorship deals, <br>facility upgrades, or community
@@ -261,10 +266,10 @@
 
     </section>
 
-    <section>
+    <section class="ml-10 lg:ml-0 w-full">
         <div>
 
-            <div class=" lg:w-10/12 flex justify-between  gap-8 mx-auto">
+            <div class="space-y-10 lg:w-10/12 lg:flex  justify-between  gap-8 mx-auto">
                 <!-- card 1 -->
                 <div class="card bg-base-100 image-full flex-1 shadow-xl mx-auto">
                     <figure>
@@ -321,7 +326,9 @@
         </div>
     </section>
 
-    <section class="w-8/12 lg:w-10/12 pt-14 mx-auto">
+    <!-- <section class="w-8/12 ml-16 lg:w-10/12 pt-14 lg:mx-auto"> -->
+
+    <section class="ml-10 w-full lg:w-10/12 lg:mx-auto lg:pt-14">    
         <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
             <h3 class="text-3xl font-extrabold r">Our New Products</h3>
             <p>The IceRazor Pro Hockey Stick is designed for elite performance and precision, built to withstand the
@@ -333,89 +340,13 @@
         </div>
     </section>
 
-    <section class="w-10/12 mt-16 mx-auto">
-        <div class=" h-80vh  grid gap-6 grid-cols-2 grid-rows-3 ">
-            <div class=" border rounded-xl bg-white h-52">
-                <div class="flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/5.png" class="max-w-sm rounded-lg " />
+    <section class="ml-10 w-full  lg:w-10/12 mt-16 lg:mx-auto">
+        <div class="flex flex-col lg:grid gap-6 lg:grid-cols-2 grid-rows-3 ">
 
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
-                            </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
-                            </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
-                        </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
-
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="border rounded-xl  bg-white h-52">
-                <div class="flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/6.png" class="max-w-sm rounded-lg " />
-
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
-                            </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
-                            </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
-                        </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
-
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class=" border rounded-xl bg-white h-52">
-                <div class="flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/7.png" class="max-w-sm rounded-lg " />
+            <!-- grid 1 -->
+            <div class=" border rounded-xl bg-white lg:h-52">
+                <div class="lg:flex justify-between my-auto mx-auto gap-4 p-3">
+                    <img src="./Images/5.png" class="mx-auto mb-6 w-full lg:w-96 rounded-lg " />
 
                     <div class="flex flex-col justify-between">
                         <!-- icon section -->
@@ -453,9 +384,10 @@
                 </div>
             </div>
 
-            <div class=" border rounded-xl bg-white h-52">
-                <div class="flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/8.png" class="max-w-sm rounded-lg " />
+            <!-- grid2 -->
+            <div class="border rounded-xl  bg-white lg:h-52">
+                <div class=" lg:flex flex-row justify-between my-auto gap-4 p-3">
+                    <img src="./Images/6.png" class="w-full rounded-lg " />
 
                     <div class="flex flex-col justify-between">
                         <!-- icon section -->
@@ -493,9 +425,10 @@
                 </div>
             </div>
 
-            <div class=" border rounded-xl bg-white h-52">
-                <div class="flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/9.png" class="max-w-sm rounded-lg " />
+            <!-- grid-3 -->
+            <div class=" border rounded-xl bg-white lg:h-52">
+                <div class=" lg:flex flex-row justify-between my-auto gap-4 p-3">
+                    <img src="./Images/7.png" class="w-full rounded-lg " />
 
                     <div class="flex flex-col justify-between">
                         <!-- icon section -->
@@ -533,9 +466,92 @@
                 </div>
             </div>
 
-            <div class=" border rounded-xl bg-white h-52">
-                <div class="flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/10.png" class="max-w-sm rounded-lg " />
+                <!-- grid-4 -->
+            <div class=" border rounded-xl bg-white lg:h-52">
+                <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
+                    <img src="./Images/8.png" class="w-full rounded-lg " />
+
+                    <div class="flex flex-col justify-between">
+                        <!-- icon section -->
+                        <div class="flex gap-3">
+                            <div class="flex text-center  flex-row gap-2">
+                                <i class="fa-solid fa-star my-auto"></i>
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex gap-2">
+                                <i class="fa-regular fa-eye my-auto"></i>
+                                20
+                            </div>
+                            <div class="flex gap-2">
+                                <i class="fa-regular fa-heart my-auto"></i>
+                                200
+                            </div>
+                        </div>
+                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                        <p class="">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                            quasi.
+                        </p>
+
+                        <div class="flex gap-4">
+                            <p class="tomato font-semibold">Price - $22.00</p>
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                <p>
+                                    Delivery Fee:Free
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- grid-5 -->
+            <div class=" border rounded-xl bg-white lg:h-52">
+                <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
+                    <img src="./Images/9.png" class="w-full rounded-lg " />
+
+                    <div class="flex flex-col justify-between">
+                        <!-- icon section -->
+                        <div class="flex gap-3">
+                            <div class="flex text-center  flex-row gap-2">
+                                <i class="fa-solid fa-star my-auto"></i>
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex gap-2">
+                                <i class="fa-regular fa-eye my-auto"></i>
+                                20
+                            </div>
+                            <div class="flex gap-2">
+                                <i class="fa-regular fa-heart my-auto"></i>
+                                200
+                            </div>
+                        </div>
+                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                        <p class="">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                            quasi.
+                        </p>
+
+                        <div class="flex gap-4">
+                            <p class="tomato font-semibold">Price - $22.00</p>
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                <p>
+                                    Delivery Fee:Free
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- grid6 -->
+            <div class=" border rounded-xl bg-white lg:h-52">
+                <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
+                    <img src="./Images/10.png" class="w-full rounded-lg " />
 
                     <div class="flex flex-col justify-between">
                         <!-- icon section -->
@@ -576,7 +592,7 @@
 
     <!-- clints section -->
 
-    <section class="w-8/12 lg:w-10/12 pt-14 mx-auto">
+    <section class="ml-10 w-full lg:w-10/12 pt-14 mx-auto">
         <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
             <h3 class="text-3xl font-extrabold mb-6">Clints Question</h3>
             <p>The IceRazor Pro Hockey Stick is designed for elite performance and precision, built to withstand the
@@ -589,15 +605,15 @@
 
 
     <!-- accordian section -->
-    <section class="w-10/12 pt-14 mx-auto p-8 border rounded-xl">
+    <section class="ml-10 w-full lg:w-10/12 pt-14 mx-auto p-8 border rounded-xl">
 
-        <div class="flex gap-4 ">
+        <div class="lg:flex gap-4 ">
 
             <div class="">
                 <img class="" src="./Images/11.png" alt="">
             </div>
 
-            <div class="w-2/3 ">
+            <div class="lg:w-2/3 ">
                 <div class="collapse collapse-plus border-b-2">
                     <input type="radio" name="my-accordion-3" checked="checked" />
                     <div class="collapse-title text-xl font-bold">Our Equipment</div>
@@ -662,7 +678,7 @@
     </section>
 
 
-    <section class="w-8/12 lg:w-10/12 pt-14 mx-auto">
+    <section class="w-full ml-10 lg:w-10/12 pt-14 mx-auto">
         <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
             <h3 class="text-3xl font-extrabold mb-6">Get In Touch</h3>
             <p>
@@ -675,27 +691,27 @@
     </section>
 
 
-    <section class="pt-14 w-10/12 mx-auto flex gap-6">
+    <section class="pt-14 mx-auto w-10/12 lg:flex gap-6">
 
         <!-- contact section -->
-        <div class="flex flex-col gap-5 border-2 rounded-xl  p-10">
+        <div class="flex flex-col gap-5  lg:border-2 rounded-xl  lg:p-5">
 
             <!-- contact 1 -->
-            <div class="w-96 h-52 bg-green-50 p-8 rounded-xl ">
+            <div class="w-[330px] lg:w-[450px] lg:h-52 bg-green-50 p-8 rounded-xl ">
                 <img class="mb-8" src="./Images/Group 1171275317.png" alt="">
                 <p class="text-gray-400">Phone Number</p>
                 <p class="font-bold">(+62) 123-321-543</p>
 
             </div>
             <!-- contact 2 -->
-            <div class="w-96 h-52 bg-amber-50 p-8 rounded-xl ">
+            <div class="w-[330px] lg:w-full lg:h-52 bg-amber-50 p-8 rounded-xl ">
                 <img class="mb-8" src="./Images/Group 1171275318.png" alt="">
                 <p class="text-gray-400">Email</p>
                 <p class="font-bold">hockeys@support.com</p>
 
             </div>
-            <!-- contact 1 -->
-            <div class="w-96 h-52 bg-sky-50 p-8 rounded-xl ">
+            <!-- contact 3 -->
+            <div class="w-[330px] lg:w-full lg:h-52 bg-sky-50 p-8 rounded-xl ">
                 <img class="mb-8" src="./Images/Group 1171275321.png" alt="">
                 <p class="text-gray-400">Location</p>
                 <p class="font-bold">152/1 Mohakhali Wireless Gate</p>
@@ -708,31 +724,31 @@
 
         <!-- form section -->
 
-        <div class="flex flex-col w-10/12">
+        <div class="mt-10 lg:w-10/12 flex flex-col">
 
             <!-- input top -->
-            <div class="grid gap-4 grid-cols-2 grid-rows-2 justify-between">
+            <div class=" lg:grid gap-4 lg:grid-cols-2 grid-rows-2 justify-between">
                 <div>
                     <p class="font-extrabold mb-2">Your Name</p>
-                    <input type="text" placeholder="Type here"
+                    <input type="text" placeholder="Enter Your Name"
+                        class="input input-bordered bg-[#13131805] input-md w-full lg:w-3xl" />
+                </div>
+
+                <div>
+                    <p class="font-extrabold mb-2">Your Email</p>
+                    <input type="text" placeholder="Enter Your email"
                         class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
                 </div>
 
                 <div>
-                    <p class="font-extrabold mb-2">Your Name</p>
-                    <input type="text" placeholder="Type here"
+                    <p class="font-extrabold mb-2">Subject</p>
+                    <input type="text" placeholder="Enter Your Subject"
                         class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
                 </div>
 
                 <div>
-                    <p class="font-extrabold mb-2">Your Name</p>
-                    <input type="text" placeholder="Type here"
-                        class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
-                </div>
-
-                <div>
-                    <p class="font-extrabold mb-2">Your Name</p>
-                    <input type="text" placeholder="Type here"
+                    <p class="font-extrabold mb-2">Phone Number</p>
+                    <input type="text" placeholder="Enter Your Phone Number"
                         class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
                 </div>
             </div>
@@ -754,9 +770,69 @@
 
 
 
+
+    </section>
+
+    <!-- social media section -->
+    <section class="pt-14 w-10/12 mx-auto h-48 my-auto">
+        <div class="bg-slate-50 pt-12 text-center h-40 my-auto rounded-xl">
+            <div class="">
+                <p class="font-extrabold mb-3">Social Media</p>
+                <div class="flex gap-4  justify-center">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
 </main>
+
+
+<footer class="footer bg-[#131318] mt-10 text-base-content text-white p-10">
+    <nav>
+      <h6 class="footer-title">Services</h6>
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Company</h6>
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Legal</h6>
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+    <form>
+      <h6 class="footer-title">Newsletter</h6>
+      <fieldset class="form-control w-80">
+        <label class="label">
+          <span class="label-text">Enter your email address</span>
+        </label>
+        <div class="join">
+          <input
+            type="text"
+            placeholder="username@site.com"
+            class="input input-bordered join-item" />
+          <!-- <button class="btn btn-primary join-item">Subscribe</button> -->
+        </div>
+      </fieldset>
+    </form>
+  </footer>
+
+
 
 </body>
 
