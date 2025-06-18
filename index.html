@@ -97,87 +97,83 @@
 
 </head>
 
-<!-- nav exp  -->
-<div class="navbar flex justify-between md:hidden  bg-base-100">
-    <div class="">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h7" />
-          </svg>
+<body class="container mx-auto md:max-w-7xl">
+
+
+
+    <!-- nav exp  -->
+    <div class="navbar  flex justify-between md:hidden  bg-base-100">
+        <div class="">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+
+                </ul>
+            </div>
         </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <li><a>Home</a></li>
-          <li><a>About</a></li>
-          <li><a>Pages</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Contact</a></li>
-        
-        </ul>
-      </div>
-    </div>
-    <div class="font-extrabold text-3xl ">Hockey<span class="tomato marka">'</span>s</div>
+        <div class="font-extrabold text-3xl ">Hockey<span class="tomato marka">'</span>s</div>
 
-    <div class="text-center gap-6">
-       
-        <button class="btn btn-warning bg-tomatos text-white w-26 h-4 lg:w-36 lg:h-14">Get Ticket</button>
+        <div class="text-center gap-6">
+
+            <button class="btn btn-warning bg-tomatos text-white w-26 h-4 lg:w-36 lg:h-14">Get Ticket</button>
+
+        </div>
+
+
 
     </div>
 
-    
-
-  </div>
-
-<!-- nav full -->
+    <!-- nav full -->
     <!-- <div class="w-full sm:hidden md:flex  justify-between lg:w-10/12 mx-auto"> -->
-        <div class="md:w-10/12 mx-auto" >
+    <div class="container mx-auto md:max-w-7xl">
         <header class=" mt-8">
             <nav class="hidden md:flex  justify-between text-center ">
-             
+
                 <div class="font-extrabold text-4xl ">Hockey<span class="tomato marka">'</span>s</div>
-    
-                 <div class=" lg:flex flex-none font-bold md:space-x-4  my-auto">
+
+                <div class=" lg:flex flex-none font-bold md:space-x-4  my-auto">
                     <a class="tomato" href="">Home</a>
                     <a href="">About</a>
                     <a href="">Pages</a>
                     <a href="">Blog</a>
                     <a href="">Contact</a>
                 </div>
-             
-    
+
+
                 <div class="flex text-center gap-6">
                     <i class="fa-solid fa-magnifying-glass my-auto"></i>
                     <button class="btn btn-warning bg-tomatos text-white w-20 lg:w-36 h-14">Get Ticket</button>
-    
+
                 </div>
-    
+
             </nav>
-    
+
         </header>
     </div>
 
-<main>
-    <!-- heroes slider section / carosoul -->
-    <section class="relative lg:w-10/12 mx-auto lg:mt-8 lg:h-3/4 lg:mb-28">
-        <div>
-            <div class="carousel w-full lg:w-full lg:h-1/2">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="./Images/1.png" class="w-full h-full relative" />
+    <main class="container mx-auto md:max-w-7xl">
+        <!-- heroes slider section / carosoul -->
+        <section class="relative lg:w-10/12 mx-auto lg:mt-8 lg:h-3/4 lg:mb-28">
+            <div>
+                <div class="carousel w-full lg:w-full lg:h-1/2">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./Images/1.png" class="w-full h-full relative" />
 
 
-                    <!-- card -->
-                    <!-- <div class="  right-1/3   lg:absolute  card bg-black text-white w-3/4 shadow-xl  lg:right-10 lg:bottom-9 transform">
+                        <!-- card -->
+                        <!-- <div class="  right-1/3   lg:absolute  card bg-black text-white w-3/4 shadow-xl  lg:right-10 lg:bottom-9 transform">
                         <div class="  card-body">
                             <h2 class="card-title">Meet all the heroes from the field</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -188,147 +184,151 @@
 
 
 
-                    <!-- arrow -->
-                    
+                        <!-- arrow -->
+
                         <div class="absolute left-28 top-2/3  lg:left-5 lg:top-3/4  lg:transform ">
                             <a href="#slide4" class="btn btn-circle bg-black text-white ">❮</a>
                             <a href="#slide2" class="btn btn-circle bg-black text-white ">❯</a>
                         </div>
-                    
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                        class="w-full" />
-                    <div class="absolute left-28 lg:left-5 top-3/4 transform">
-                        <a href="#slide1" class="btn btn-circle bg-black text-white ">❮</a>
-                        <a href="#slide3" class="btn btn-circle bg-black text-white ">❯</a>
+
                     </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                        class="w-full" />
-                    <div class="absolute left-5 top-3/4 transform">
-                        <a href="#slide2" class="btn btn-circle bg-black text-white ">❮</a>
-                        <a href="#slide4" class="btn btn-circle bg-black text-white ">❯</a>
+
+                    <div class="   absolute  card bg-black text-white  shadow-xl sm:bottom-16 lg:right-[137px] md:bottom-36 transform">
+                        <div class="  card-body">
+                            <h2 class="card-title">Meet all the heroes from the field</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
+                        </div>
                     </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                        class="w-full" />
-                    <div class="absolute left-5 top-3/4 transform">
-                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
-                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                            class="w-full" />
+                        <div class="absolute left-28 lg:left-5 top-3/4 transform">
+                            <a href="#slide1" class="btn btn-circle bg-black text-white ">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-black text-white ">❯</a>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="   lg:absolute  card bg-black text-white  shadow-xl  lg:right-[137px] md:bottom-36 transform">
-        <div class="  card-body">
-            <h2 class="card-title">Meet all the heroes from the field</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-
-        </div>
-    </div> 
-
-    <section class="ml-5 w-11/12 lg:w-10/12 lg:mx-auto">
-        <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
-            <h3 class="text-3xl font-extrabold r">Professional Hockeys Club</h3>
-            <p>"Our mission is to foster a love for the game of hockey while building a community of players, <br>
-                coaches, and fans who strive for excellence both on and off the ice."
-            </p>
-
-        </div>
-    </section>
-
-    <!-- rating secction -->
-    <section class="ml-5 w-full lg:w-10/12 lg:mx-auto mt-8 mb-14 ">
-        <div class="space-y-6 lg:flex justify-center w-auto">
-
-            <!-- card1 -->
-            <div class="flex mt-5 flex-col gap-2 lg:w-56 justify-center text-center ">
-
-                <div class="mx-auto">
-                    <div class="  rounded-[50%] h-4 w-1 p-8 progress rotate-180">
-                        <div class="-mx-3 -my-3">
-                            <p class="rotate-180">87%
-                            </p>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                            class="w-full" />
+                        <div class="absolute left-5 top-3/4 transform">
+                            <a href="#slide2" class="btn btn-circle bg-black text-white ">❮</a>
+                            <a href="#slide4" class="btn btn-circle bg-black text-white ">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                            class="w-full" />
+                        <div class="absolute left-5 top-3/4 transform">
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                         </div>
                     </div>
                 </div>
-                <h2 class="font-bold">Player Facility</h2>
-                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
             </div>
+        </section>
 
-            <!-- two -->
-            <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
+     
 
-                <div class="mx-auto">
-                    <div class="  rounded-[50%] h-4 w-1 p-8 progress-two  rotate-180">
-                        <div class="-mx-3 -my-3">
-                            <p class="rotate-180">95%
-                            </p>
+        <section class="ml-5 w-11/12 lg:w-10/12 lg:mx-auto">
+            <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
+                <h3 class="text-3xl font-extrabold r">Professional Hockeys Club</h3>
+                <p>"Our mission is to foster a love for the game of hockey while building a community of players, <br>
+                    coaches, and fans who strive for excellence both on and off the ice."
+                </p>
+
+            </div>
+        </section>
+
+        <!-- rating secction -->
+        <section class="ml-5 w-full lg:w-10/12 lg:mx-auto mt-8 mb-14 ">
+            <div class="space-y-6 lg:flex justify-center w-auto">
+
+                <!-- card1 -->
+                <div class="flex mt-5 flex-col gap-2 lg:w-56 justify-center text-center ">
+
+                    <div class="mx-auto">
+                        <div class="  rounded-[50%] h-4 w-1 p-8 progress rotate-180">
+                            <div class="-mx-3 -my-3">
+                                <p class="rotate-180">87%
+                                </p>
+                            </div>
                         </div>
                     </div>
+                    <h2 class="font-bold">Player Facility</h2>
+                    <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
                 </div>
-                <h2 class="font-bold">Player Facility</h2>
-                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
-            </div>
 
-            <!-- three -->
-            <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
+                <!-- two -->
+                <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
 
-                <div class="mx-auto">
-                    <div class="  rounded-[50%] h-4 w-1 p-8 progress-three  rotate-180">
-                        <div class="-mx-3 -my-3">
-                            <p class="rotate-180">80%
-                            </p>
+                    <div class="mx-auto">
+                        <div class="  rounded-[50%] h-4 w-1 p-8 progress-two  rotate-180">
+                            <div class="-mx-3 -my-3">
+                                <p class="rotate-180">95%
+                                </p>
+                            </div>
                         </div>
                     </div>
+                    <h2 class="font-bold">Player Facility</h2>
+                    <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
                 </div>
-                <h2 class="font-bold">Player Facility</h2>
-                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
-            </div>
 
-            <!-- four -->
-            <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
+                <!-- three -->
+                <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
 
-                <div class="mx-auto">
-                    <div class="  rounded-[50%] h-4 w-1 p-8 progress-four rotate-180 ">
-                        <div class="-mx-3 -my-3">
-                            <p class="rotate-180">90%
-                            </p>
+                    <div class="mx-auto">
+                        <div class="  rounded-[50%] h-4 w-1 p-8 progress-three  rotate-180">
+                            <div class="-mx-3 -my-3">
+                                <p class="rotate-180">80%
+                                </p>
+                            </div>
                         </div>
                     </div>
+                    <h2 class="font-bold">Player Facility</h2>
+                    <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
                 </div>
-                <h2 class="font-bold">Player Facility</h2>
-                <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+
+                <!-- four -->
+                <div class="flex flex-col gap-2 lg:w-56 justify-center text-center ">
+
+                    <div class="mx-auto">
+                        <div class="  rounded-[50%] h-4 w-1 p-8 progress-four rotate-180 ">
+                            <div class="-mx-3 -my-3">
+                                <p class="rotate-180">90%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="font-bold">Player Facility</h2>
+                    <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- program section -->
+        <!-- program section -->
 
-    <section class="ml-10 lg:w-10/12 lg:mx-auto">
-        <div class="mx-auto text-center border-dashed border-t-2 py-10 my-4">
-            <h3 class="text-3xl font-extrabold r">Program Sections</h3>
-            <p>For major club news or partnerships, such as new sponsorship deals, <br>facility upgrades, or community
-                outreach programs.
-            </p>
+        <section class="ml-10 lg:w-10/12 lg:mx-auto">
+            <div class="mx-auto text-center border-dashed border-t-2 py-10 my-4">
+                <h3 class="text-3xl font-extrabold r">Program Sections</h3>
+                <p>For major club news or partnerships, such as new sponsorship deals, <br>facility upgrades, or
+                    community
+                    outreach programs.
+                </p>
 
-        </div>
+            </div>
 
-    </section>
+        </section>
 
-    <section class="mx-auto ml-5 lg:ml-0 w-full">
-        
+        <section class="mx-auto ml-5 lg:ml-0 w-full">
 
-            <div class="space-y-10 lg:w-10/12 lg:flex  justify-between  gap-8 mx-auto">
+
+            <div class=" lg:w-10/12 lg:flex  justify-between  gap-8 mx-auto">
                 <!-- card 1 -->
                 <div class="card bg-base-100 image-full flex-1 shadow-xl mx-auto">
                     <figure>
-                        <img src="./Images/2.png" alt="Shoes" />
+                        <img class="w-full" src="./Images/2.png" alt="Shoes" />
                     </figure>
                     <div class="card-body pt-16">
                         <h2 class="card-title">Junior Program</h2>
@@ -346,7 +346,7 @@
                 <!-- card 2 -->
                 <div class="card bg-base-100 image-full flex-1 shadow-xl">
                     <figure>
-                        <img class="" src="./Images/3.png" alt="Shoes" />
+                        <img class="w-full" src="./Images/3.png" alt="Shoes" />
                     </figure>
                     <div class="card-body pt-16">
                         <h2 class="card-title">Teenager Program</h2>
@@ -365,7 +365,7 @@
             <!-- card 3 -->
             <div class=" card lg:w-10/12 mx-auto bg-base-100 image-full w- shadow-xl mt-8">
                 <figure>
-                    <img src="./Images/4.png" alt="Shoes" />
+                    <img class="max-w-full" src="./Images/4.png" alt="Shoes" />
                 </figure>
                 <div class="card-body pt-40">
                     <h2 class="card-title">Professional Program</h2>
@@ -378,514 +378,523 @@
                 </div>
             </div>
 
-        
-    </section>
 
-    <!-- <section class="w-8/12 ml-16 lg:w-10/12 pt-14 lg:mx-auto"> -->
+        </section>
 
-    <section class="ml-5 w-full lg:w-10/12 lg:mx-auto lg:pt-14">    
-        <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
-            <h3 class="text-3xl font-extrabold r">Our New Products</h3>
-            <p>The IceRazor Pro Hockey Stick is designed for elite performance and precision, built to withstand the
-                demands of professional hockey players while offering exceptional power and control. Whether you’re
-                shooting for the game-winning goal or making a critical pass, the IceRazor Pro gives you the edge you
-                need to dominate the ice.
-            </p>
+        <!-- <section class="w-8/12 ml-16 lg:w-10/12 pt-14 lg:mx-auto"> -->
 
-        </div>
-    </section>
+        <section class="ml-5 w-full lg:w-10/12 lg:mx-auto lg:pt-14">
+            <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
+                <h3 class="text-3xl font-extrabold r">Our New Products</h3>
+                <p>The IceRazor Pro Hockey Stick is designed for elite performance and precision, built to withstand the
+                    demands of professional hockey players while offering exceptional power and control. Whether you’re
+                    shooting for the game-winning goal or making a critical pass, the IceRazor Pro gives you the edge
+                    you
+                    need to dominate the ice.
+                </p>
 
-    <section class="ml-5 w-full  lg:w-10/12 mt-16 lg:mx-auto">
-        <div class="flex flex-col lg:grid gap-6 lg:grid-cols-2 grid-rows-3 ">
+            </div>
+        </section>
 
-            <!-- grid 1 -->
-            <div class=" border rounded-xl bg-white lg:h-52">
-                <div class="lg:flex justify-between my-auto mx-auto gap-4 p-3">
-                    <img src="./Images/5.png" class="mx-auto mb-6 w-full lg:w-96 rounded-lg " />
+        <section class="ml-5 w-full  lg:w-10/12 mt-16 lg:mx-auto">
+            <div class="flex flex-col lg:grid gap-6 lg:grid-cols-2 grid-rows-3 ">
 
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
+                <!-- grid 1 -->
+                <div class=" border rounded-xl bg-white lg:h-52">
+                    <div class="lg:flex justify-between my-auto mx-auto gap-4 p-3">
+                        <img src="./Images/5.png" class="mx-auto mb-6 max-w-full lg:w-96 rounded-lg " />
+
+                        <div class="flex flex-col justify-between">
+                            <!-- icon section -->
+                            <div class="flex gap-3">
+                                <div class="flex text-center  flex-row gap-2">
+                                    <i class="fa-solid fa-star my-auto"></i>
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-eye my-auto"></i>
+                                    20
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-heart my-auto"></i>
+                                    200
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
+                            <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                            <p class="">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi.
+                            </p>
+
+                            <div class="flex gap-4">
+                                <p class="tomato font-semibold">Price - $22.00</p>
+                                <div class="flex gap-1">
+                                    <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                    <p>
+                                        Delivery Fee:Free
+                                    </p>
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
+
                         </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
-
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-            </div>
 
-            <!-- grid2 -->
-            <div class="border rounded-xl  bg-white lg:h-52">
-                <div class=" lg:flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/6.png" class="w-full rounded-lg " />
+                <!-- grid2 -->
+                <div class="border rounded-xl  bg-white lg:">
+                    <div class="lg:flex justify-between my-auto mx-auto gap-4 p-3">
+                        <img src="./Images/6.png" class="max-w-full rounded-lg " />
 
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
+                        <div class="flex flex-col justify-between">
+                            <!-- icon section -->
+                            <div class="flex gap-3">
+                                <div class="flex text-center  flex-row gap-2">
+                                    <i class="fa-solid fa-star my-auto"></i>
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-eye my-auto"></i>
+                                    20
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-heart my-auto"></i>
+                                    200
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
+                            <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                            <p class="">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi.
+                            </p>
+
+                            <div class="flex gap-4">
+                                <p class="tomato font-semibold">Price - $22.00</p>
+                                <div class="flex gap-1">
+                                    <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                    <p>
+                                        Delivery Fee:Free
+                                    </p>
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
+
                         </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
-
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-            </div>
 
-            <!-- grid-3 -->
-            <div class=" border rounded-xl bg-white lg:h-52">
-                <div class=" lg:flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/7.png" class="w-full rounded-lg " />
+                <!-- grid-3 -->
+                <div class=" border rounded-xl bg-white lg:h-52">
+                    <div class=" lg:flex flex-row justify-between my-auto gap-4 p-3">
+                        <img src="./Images/7.png" class="max-w-full rounded-lg " />
 
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
+                        <div class="flex flex-col justify-between">
+                            <!-- icon section -->
+                            <div class="flex gap-3">
+                                <div class="flex text-center  flex-row gap-2">
+                                    <i class="fa-solid fa-star my-auto"></i>
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-eye my-auto"></i>
+                                    20
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-heart my-auto"></i>
+                                    200
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
+                            <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                            <p class="">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi.
+                            </p>
+
+                            <div class="flex gap-4">
+                                <p class="tomato font-semibold">Price - $22.00</p>
+                                <div class="flex gap-1">
+                                    <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                    <p>
+                                        Delivery Fee:Free
+                                    </p>
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
+
                         </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
-
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-            </div>
 
                 <!-- grid-4 -->
-            <div class=" border rounded-xl bg-white lg:h-52">
-                <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/8.png" class="w-full rounded-lg " />
+                <div class=" border rounded-xl bg-white lg:h-52">
+                    <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
+                        <img src="./Images/8.png" class="max-w-full rounded-lg " />
 
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
+                        <div class="flex flex-col justify-between">
+                            <!-- icon section -->
+                            <div class="flex gap-3">
+                                <div class="flex text-center  flex-row gap-2">
+                                    <i class="fa-solid fa-star my-auto"></i>
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-eye my-auto"></i>
+                                    20
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-heart my-auto"></i>
+                                    200
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
+                            <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                            <p class="">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi.
+                            </p>
+
+                            <div class="flex gap-4">
+                                <p class="tomato font-semibold">Price - $22.00</p>
+                                <div class="flex gap-1">
+                                    <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                    <p>
+                                        Delivery Fee:Free
+                                    </p>
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
+
                         </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
+                    </div>
+                </div>
 
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
+                <!-- grid-5 -->
+                <div class=" border rounded-xl bg-white lg:h-52">
+                    <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
+                        <img src="./Images/9.png" class="max-w-full rounded-lg " />
+
+                        <div class="flex flex-col justify-between">
+                            <!-- icon section -->
+                            <div class="flex gap-3">
+                                <div class="flex text-center  flex-row gap-2">
+                                    <i class="fa-solid fa-star my-auto"></i>
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-eye my-auto"></i>
+                                    20
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-heart my-auto"></i>
+                                    200
+                                </div>
                             </div>
+                            <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                            <p class="">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi.
+                            </p>
+
+                            <div class="flex gap-4">
+                                <p class="tomato font-semibold">Price - $22.00</p>
+                                <div class="flex gap-1">
+                                    <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                    <p>
+                                        Delivery Fee:Free
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
-
                     </div>
                 </div>
-            </div>
 
-            <!-- grid-5 -->
-            <div class=" border rounded-xl bg-white lg:h-52">
-                <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/9.png" class="w-full rounded-lg " />
+                <!-- grid6 -->
+                <div class=" border rounded-xl bg-white lg:h-52">
+                    <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
+                        <img src="./Images/10.png" class="max-w-full rounded-lg " />
 
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
+                        <div class="flex flex-col justify-between">
+                            <!-- icon section -->
+                            <div class="flex gap-3">
+                                <div class="flex text-center  flex-row gap-2">
+                                    <i class="fa-solid fa-star my-auto"></i>
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-eye my-auto"></i>
+                                    20
+                                </div>
+                                <div class="flex gap-2">
+                                    <i class="fa-regular fa-heart my-auto"></i>
+                                    200
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
+                            <h1 class="text-xl font-bold">World Cup Flages Football</h1>
+                            <p class="">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi.
+                            </p>
+
+                            <div class="flex gap-4">
+                                <p class="tomato font-semibold">Price - $22.00</p>
+                                <div class="flex gap-1">
+                                    <i class="fa-solid fa-cart-shopping my-auto"></i>
+                                    <p>
+                                        Delivery Fee:Free
+                                    </p>
+                                </div>
                             </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
+
                         </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
+                    </div>
+                </div>
+        </section>
 
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
-                            </div>
+        <!-- clints section -->
+
+        <section class="ml-5 lg:w-10/12 pt-14 lg:mx-auto">
+            <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
+                <h3 class="text-3xl font-extrabold mb-6">Clints Question</h3>
+                <p>The IceRazor Pro Hockey Stick is designed for elite performance and precision, built to withstand the
+                    <br>
+                    demands of professional hockey players while offering exceptional power and
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- accordian section -->
+        <section class="ml-5  lg:w-10/12 pt-14 lg:mx-auto lg:p-8 border rounded-xl">
+
+            <div class="lg:flex gap-4 ">
+
+                <div class="">
+                    <img class="" src="./Images/11.png" alt="">
+                </div>
+
+                <div class="lg:w-2/3 ">
+                    <div class="collapse collapse-plus border-b-2">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-bold">Our Equipment</div>
+                        <div class="collapse-content">
+                            <p>For hockey, the necessary gear includes a stick, skates, helmet with a face mask or
+                                visor,
+                                gloves, elbow pads, shoulder pads, and shin guards.</p>
                         </div>
-
                     </div>
-                </div>
-            </div>
-
-            <!-- grid6 -->
-            <div class=" border rounded-xl bg-white lg:h-52">
-                <div class="lg:flex flex-row justify-between my-auto gap-4 p-3">
-                    <img src="./Images/10.png" class="w-full rounded-lg " />
-
-                    <div class="flex flex-col justify-between">
-                        <!-- icon section -->
-                        <div class="flex gap-3">
-                            <div class="flex text-center  flex-row gap-2">
-                                <i class="fa-solid fa-star my-auto"></i>
-                                <p>5.0</p>
-                            </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-eye my-auto"></i>
-                                20
-                            </div>
-                            <div class="flex gap-2">
-                                <i class="fa-regular fa-heart my-auto"></i>
-                                200
-                            </div>
+                    <div class="collapse collapse-plus border-b-2">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">Hockey Training</div>
+                        <div class="collapse-content">
+                            <p>Whether you're a beginner or an experienced player looking to enhance your skills, our
+                                hockey
+                                training sessions are designed to help you improve your game. Our programs cover a range
+                                of
+                                disciplines including skating, shooting, passing, and positioning.</p>
                         </div>
-                        <h1 class="text-xl font-bold">World Cup Flages Football</h1>
-                        <p class="">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi.
-                        </p>
+                    </div>
 
-                        <div class="flex gap-4">
-                            <p class="tomato font-semibold">Price - $22.00</p>
-                            <div class="flex gap-1">
-                                <i class="fa-solid fa-cart-shopping my-auto"></i>
-                                <p>
-                                    Delivery Fee:Free
-                                </p>
-                            </div>
+                    <div class="collapse collapse-plus border-b-2 ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">Hockey Training</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
                         </div>
+                    </div>
 
+                    <div class="collapse collapse-plus border-b-2 ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">Private Lessons</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">Ski Touring Adventures</div>
+                        <div class="collapse-content">
+                            <p>For those who want to add some adventure to their athletic pursuits, we offer ski touring
+                                trips for individuals and groups. Ski touring is an excellent way to experience nature
+                                and
+                                explore the mountains while getting in a great workout.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">Booking Your Session</div>
+                        <div class="collapse-content">
+                            <p>Booking your training or adventure session is easy! Simply follow the steps below:
+
+                                Choose Your Program: Select the training session or ski tour you’re interested in from
+                                the
+                                options above.
+                                Select a Date: View available dates and times on our calendar.
+                                Make Payment: Secure your spot by paying through our secure booking system.
+                                Confirmation: Once your booking is confirmed, you will receive an email with additional
+                                details and any equipment requirements (for ski tours).</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <section class=" ml-5 lg:w-10/12 pt-14 lg:mx-auto">
+            <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
+                <h3 class="text-3xl font-extrabold mb-6">Get In Touch</h3>
+                <p>
+                    We'd love to hear from you! Whether you have questions about our hockey training programs, need
+                    assistance with <br> booking, or just want to chat about your goals on the ice, our team is here to
+                    help.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section class="pt-14 mx-auto w-10/12 lg:flex gap-6">
+
+            <!-- contact section -->
+            <div class="flex flex-col gap-5  lg:border-2 rounded-xl  lg:p-5">
+
+                <!-- contact 1 -->
+                <div class="w-[320px] lg:w-[450px] lg:h-52 bg-green-50 p-8 rounded-xl ">
+                    <img class="mb-8" src="./Images/Group 1171275317.png" alt="">
+                    <p class="text-gray-400">Phone Number</p>
+                    <p class="font-bold">(+62) 123-321-543</p>
+
+                </div>
+                <!-- contact 2 -->
+                <div class="w-[320px] lg:w-full lg:h-52 bg-amber-50 p-8 rounded-xl ">
+                    <img class="mb-8" src="./Images/Group 1171275318.png" alt="">
+                    <p class="text-gray-400">Email</p>
+                    <p class="font-bold">hockeys@support.com</p>
+
+                </div>
+                <!-- contact 3 -->
+                <div class="w-[320px] lg:w-full lg:h-52 bg-sky-50 p-8 rounded-xl ">
+                    <img class="mb-8" src="./Images/Group 1171275321.png" alt="">
+                    <p class="text-gray-400">Location</p>
+                    <p class="font-bold">152/1 Mohakhali Wireless Gate</p>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- form section -->
+
+            <div class="mt-10 lg:w-10/12 flex flex-col">
+
+                <!-- input top -->
+                <div class=" lg:grid gap-4 lg:grid-cols-2 grid-rows-2 justify-between">
+                    <div>
+                        <p class="font-extrabold mb-2">Your Name</p>
+                        <input type="text" placeholder="Enter Your Name"
+                            class="input input-bordered bg-[#13131805] input-md w-full lg:w-3xl" />
+                    </div>
+
+                    <div>
+                        <p class="font-extrabold mb-2">Your Email</p>
+                        <input type="text" placeholder="Enter Your email"
+                            class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
+                    </div>
+
+                    <div>
+                        <p class="font-extrabold mb-2">Subject</p>
+                        <input type="text" placeholder="Enter Your Subject"
+                            class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
+                    </div>
+
+                    <div>
+                        <p class="font-extrabold mb-2">Phone Number</p>
+                        <input type="text" placeholder="Enter Your Phone Number"
+                            class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
                     </div>
                 </div>
-            </div>
-    </section>
 
-    <!-- clints section -->
+                <!-- message input -->
+                <div class="mt-10">
+                    <p class="font-extrabold mb-2">Message</p>
+                    <input type="text" placeholder="Write Your Message"
+                        class="input input-bordered bg-[#13131805] input-md h-96 w-full " />
+                </div>
 
-    <section class="ml-5 lg:w-10/12 pt-14 lg:mx-auto">
-        <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
-            <h3 class="text-3xl font-extrabold mb-6">Clints Question</h3>
-            <p>The IceRazor Pro Hockey Stick is designed for elite performance and precision, built to withstand the
-                <br>
-                demands of professional hockey players while offering exceptional power and
-            </p>
-
-        </div>
-    </section>
+                <button class="btn bg-tomatos w-full btn-wide mt-10 text-white">Send Message</button>
 
 
-    <!-- accordian section -->
-    <section class="ml-5  lg:w-10/12 pt-14 lg:mx-auto lg:p-8 border rounded-xl">
 
-        <div class="lg:flex gap-4 ">
-
-            <div class="">
-                <img class="" src="./Images/11.png" alt="">
             </div>
 
-            <div class="lg:w-2/3 ">
-                <div class="collapse collapse-plus border-b-2">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-bold">Our Equipment</div>
-                    <div class="collapse-content">
-                        <p>For hockey, the necessary gear includes a stick, skates, helmet with a face mask or visor,
-                            gloves, elbow pads, shoulder pads, and shin guards.</p>
+
+
+
+
+
+        </section>
+
+        <!-- social media section -->
+        <section class="pt-14 w-10/12 mx-auto h-48 my-auto">
+            <div class="bg-slate-50 pt-12 text-center h-40 my-auto rounded-xl">
+                <div class="">
+                    <p class="font-extrabold mb-3">Social Media</p>
+                    <div class="flex gap-4  justify-center">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-github"></i>
                     </div>
-                </div>
-                <div class="collapse collapse-plus border-b-2">
-                    <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-bold">Hockey Training</div>
-                    <div class="collapse-content">
-                        <p>Whether you're a beginner or an experienced player looking to enhance your skills, our hockey
-                            training sessions are designed to help you improve your game. Our programs cover a range of
-                            disciplines including skating, shooting, passing, and positioning.</p>
-                    </div>
-                </div>
 
-                <div class="collapse collapse-plus border-b-2 ">
-                    <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-bold">Hockey Training</div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-
-                <div class="collapse collapse-plus border-b-2 ">
-                    <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-bold">Private Lessons</div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <div class="collapse collapse-plus border-b-2 ">
-                    <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-bold">Ski Touring Adventures</div>
-                    <div class="collapse-content">
-                        <p>For those who want to add some adventure to their athletic pursuits, we offer ski touring
-                            trips for individuals and groups. Ski touring is an excellent way to experience nature and
-                            explore the mountains while getting in a great workout.</p>
-                    </div>
-                </div>
-                <div class="collapse collapse-plus border-b-2 ">
-                    <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-bold">Booking Your Session</div>
-                    <div class="collapse-content">
-                        <p>Booking your training or adventure session is easy! Simply follow the steps below:
-
-                            Choose Your Program: Select the training session or ski tour you’re interested in from the
-                            options above.
-                            Select a Date: View available dates and times on our calendar.
-                            Make Payment: Secure your spot by paying through our secure booking system.
-                            Confirmation: Once your booking is confirmed, you will receive an email with additional
-                            details and any equipment requirements (for ski tours).</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
-
-
-    <section class=" ml-5 lg:w-10/12 pt-14 lg:mx-auto">
-        <div class="mx-auto text-center border-dashed border-y-2 py-10 my-4">
-            <h3 class="text-3xl font-extrabold mb-6">Get In Touch</h3>
-            <p>
-                We'd love to hear from you! Whether you have questions about our hockey training programs, need
-                assistance with <br> booking, or just want to chat about your goals on the ice, our team is here to
-                help.
-            </p>
-
-        </div>
-    </section>
-
-
-    <section class="pt-14 mx-auto w-10/12 lg:flex gap-6">
-
-        <!-- contact section -->
-        <div class="flex flex-col gap-5  lg:border-2 rounded-xl  lg:p-5">
-
-            <!-- contact 1 -->
-            <div class="w-[320px] lg:w-[450px] lg:h-52 bg-green-50 p-8 rounded-xl ">
-                <img class="mb-8" src="./Images/Group 1171275317.png" alt="">
-                <p class="text-gray-400">Phone Number</p>
-                <p class="font-bold">(+62) 123-321-543</p>
-
-            </div>
-            <!-- contact 2 -->
-            <div class="w-[320px] lg:w-full lg:h-52 bg-amber-50 p-8 rounded-xl ">
-                <img class="mb-8" src="./Images/Group 1171275318.png" alt="">
-                <p class="text-gray-400">Email</p>
-                <p class="font-bold">hockeys@support.com</p>
-
-            </div>
-            <!-- contact 3 -->
-            <div class="w-[320px] lg:w-full lg:h-52 bg-sky-50 p-8 rounded-xl ">
-                <img class="mb-8" src="./Images/Group 1171275321.png" alt="">
-                <p class="text-gray-400">Location</p>
-                <p class="font-bold">152/1 Mohakhali Wireless Gate</p>
-
-            </div>
-
-
-
-        </div>
-
-        <!-- form section -->
-
-        <div class="mt-10 lg:w-10/12 flex flex-col">
-
-            <!-- input top -->
-            <div class=" lg:grid gap-4 lg:grid-cols-2 grid-rows-2 justify-between">
-                <div>
-                    <p class="font-extrabold mb-2">Your Name</p>
-                    <input type="text" placeholder="Enter Your Name"
-                        class="input input-bordered bg-[#13131805] input-md w-full lg:w-3xl" />
-                </div>
-
-                <div>
-                    <p class="font-extrabold mb-2">Your Email</p>
-                    <input type="text" placeholder="Enter Your email"
-                        class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
-                </div>
-
-                <div>
-                    <p class="font-extrabold mb-2">Subject</p>
-                    <input type="text" placeholder="Enter Your Subject"
-                        class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
-                </div>
-
-                <div>
-                    <p class="font-extrabold mb-2">Phone Number</p>
-                    <input type="text" placeholder="Enter Your Phone Number"
-                        class="input input-bordered bg-[#13131805] input-md w-full max-w-3xl" />
-                </div>
-            </div>
-
-            <!-- message input -->
-            <div class="mt-10">
-                <p class="font-extrabold mb-2">Message</p>
-                <input type="text" placeholder="Write Your Message"
-                    class="input input-bordered bg-[#13131805] input-md h-96 w-full " />
-            </div>
-
-            <button class="btn bg-tomatos w-full btn-wide mt-10 text-white">Send Message</button>
-
-
-
-        </div>
-
-
-
-
-
-
-    </section>
-
-    <!-- social media section -->
-    <section class="pt-14 w-10/12 mx-auto h-48 my-auto">
-        <div class="bg-slate-50 pt-12 text-center h-40 my-auto rounded-xl">
-            <div class="">
-                <p class="font-extrabold mb-3">Social Media</p>
-                <div class="flex gap-4  justify-center">
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-github"></i>
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
-
-</main>
+    </main>
 
 
-<footer class="footer bg-[#131318] mt-10 text-base-content text-white p-10">
-    <nav>
-      <h6 class="footer-title">Services</h6>
-      <a class="link link-hover">Branding</a>
-      <a class="link link-hover">Design</a>
-      <a class="link link-hover">Marketing</a>
-      <a class="link link-hover">Advertisement</a>
-    </nav>
-    <nav>
-      <h6 class="footer-title">Company</h6>
-      <a class="link link-hover">About us</a>
-      <a class="link link-hover">Contact</a>
-      <a class="link link-hover">Jobs</a>
-      <a class="link link-hover">Press kit</a>
-    </nav>
-    <nav>
-      <h6 class="footer-title">Legal</h6>
-      <a class="link link-hover">Terms of use</a>
-      <a class="link link-hover">Privacy policy</a>
-      <a class="link link-hover">Cookie policy</a>
-    </nav>
-    <form>
-      <h6 class="footer-title">Newsletter</h6>
-      <fieldset class="form-control w-80">
-        <label class="label">
-          <span class="label-text">Enter your email address</span>
-        </label>
-        <div class="join">
-          <input
-            type="text"
-            placeholder="username@site.com"
-            class="input input-bordered join-item" />
-          <!-- <button class="btn btn-primary join-item">Subscribe</button> -->
-        </div>
-      </fieldset>
-    </form>
-  </footer>
+    <footer class="footer bg-[#131318] mt-10 text-base-content text-white p-10">
+        <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+            <h6 class="footer-title">Newsletter</h6>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                </label>
+                <div class="join">
+                    <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                    <!-- <button class="btn btn-primary join-item">Subscribe</button> -->
+                </div>
+            </fieldset>
+        </form>
+    </footer>
 
 
 
